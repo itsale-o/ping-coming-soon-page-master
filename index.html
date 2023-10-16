@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Ping Coming Soon Page</title>
+</head>
+<body>
+  <main>
+    <div id="header">
+      <img src="images/logo.svg" alt="">
+      <h1>We are launching <span>soon!</span></h1>
+      <p>Subscribe and get notified</p>
+      <form action="#" id="form">
+        <div class="input-div">
+          <input type="text" id="email" onkeyup="typing()" placeholder="Your email address...">
+          <button id="notify-button">Notify Me</button>
+        </div>
+        <span id="error-span"></span>
+      </form>
+    </div>
+    <div id="illustration-div">
+      <img src="images/illustration-dashboard.png" alt="Illustration Dashboard">
+    </div>
+    <div id="footer">
+      <div id="social-media-icons">
+        <div class="icon" id="facebook" role="img" aria-label="Facebook Icon">
+          <ion-icon name="logo-facebook" aria-labelledby="facebook"></ion-icon>
+        </div>  
+        <div class="icon" id="twitter" role="img" aria-label="Twitter Icon">
+          <ion-icon name="logo-twitter" aria-labelledby="twitter"></ion-icon>
+        </div>       
+        <div class="icon" id="instagram" role="img" aria-label="Instagram Icon">
+          <ion-icon name="logo-instagram" aria-labelledby="instagram"></ion-icon>
+        </div>  
+      </div>
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/itsale-o">Alessandra Oliveira</a>.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
